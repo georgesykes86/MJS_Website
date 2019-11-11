@@ -1,4 +1,8 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
+body {
+  font-family: 'EB Garamond', serif;
+}
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -8,4 +12,20 @@
 footer {
   background-color: #f2f2f2;
   padding: 25px;
+}
+.container-fluid .row img {
+  filter: brightness(40%)
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_image {
+  position: relative;
+  text-align: center;
+  color: white;
 }

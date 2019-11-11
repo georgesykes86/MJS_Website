@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" >
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 </head>
@@ -24,32 +25,20 @@
     </div>
   </div>
   </nav>
-  <div class="container text-center">
-    <h3>Our Services</h3>
-    <br>
+  <div class="container-fluid text-center title_image">
     <div class="row">
-      <div class="col">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-        <p>Cabinets</p>
-      </div>
-      <div class="col">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-        <p>Wardrobes</p>
-      </div>
-      <div class="col">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-        <p>Kitchen Fitting</p>
-      </div>
-      <div class="col">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-        <p>Floor Fitting</p>
-      </div>
-      <div class="col">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-        <p>General Woodwork</p>
+      <img src="images/carpentry.jpg" alt="carpentry" style="width:100%" style="filter: brightness(50%)">
+      <div class="centered">
+        <h1>MJ & Sons Carpentry</h1>
+        <br>
+        <div class="border-top my-3"></div>
+        <br>
+        <h3>Cabinets&nbsp;&nbsp;&nbsp;&#183;&nbsp;&nbsp;&nbsp;Wardrobes&nbsp;&nbsp;&nbsp;&#183;&nbsp;&nbsp;&nbsp;Kitchen Fitting</h3>
+        <h3>Floor Fitting&nbsp;&nbsp;&nbsp;&#183;&nbsp;&nbsp;&nbsp;General Woodwork</h3>
       </div>
     </div>
-  </div><br>
+  </div>
+  <br>
   <div class="container text-center">
     <h3>Projects</h3><br>
     <div class="row">
@@ -67,17 +56,38 @@
       </div>
     </div>
   </div><br>
-  <div class="container text-center">
-    <h3>Contact Us</h3><br>
-    <div class="row">
-      <div class="col">
-        <p><i class="fas fa-phone"></i>0777777777777</p>
-      </div>
-    </div>
-  </div><br>
+  <div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div><br>
 
   <footer class="container-fluid text-center">
-    <p>MJ & Sons Carpentry</p>
+    <p>MJ&Sons Carpentry</p>
   </footer>
 
 </body>
