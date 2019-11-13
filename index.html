@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>MJ&Sons</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -12,22 +12,22 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <a class="navbar-brand" href="#">MJ & Sons Carpentry</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Services <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Projects</a>
-      <a class="nav-item nav-link" href="#">Contact Us</a>
+      <a class="nav-item nav-link active" href="#services">Services <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#projects">Projects</a>
+      <a class="nav-item nav-link" href="#contacts">Contact Us</a>
     </div>
   </div>
   </nav>
-  <div class="container-fluid text-center title_image">
+  <div class="container-fluid text-center title_image" id="services">
     <div class="row">
-      <img src="images/carpentry.jpg" alt="carpentry" style="width:100%" style="filter: brightness(50%)">
+      <img src="images/carpentry.jpg" alt="carpentry" class="background_image" style="width:100%" style="filter: brightness(50%)">
       <div class="centered">
         <h1>MJ & Sons Carpentry</h1>
         <br>
@@ -38,56 +38,59 @@
       </div>
     </div>
   </div>
-  <br>
-  <div class="container text-center">
-    <h3>Projects</h3><br>
+  <div class="container-fluid text-center bg-secondary m-0 p-5" id="projects">
+    <h3 class="text-light">PROJECTS</h3><br>
     <div class="row">
       <div class="col-sm-4">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        <p>Full renovation - Wimbledon</p>
+        <img src="images/wimbledon/wimbledon-main.JPG" class="img-responsive img-thumbnail" style="width:100%" alt="Image">
+        <h4 class="project-title p-2 text-light">Full renovation - Wimbledon</h4>
       </div>
       <div class="col-sm-4">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        <p>Full renovation - Clapham</p>
+        <img src="images/clapham/clapham-main.png" class="img-responsive img-thumbnail" style="width:100%" alt="Image">
+        <h4 class="project-title p-2 text-light">Full renovation - Clapham</h4>
       </div>
       <div class="col-sm-4">
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        <p>Bookshelves - Clapham</p>
+        <img src="images/placeholder.jpg" class="img-responsive img-thumbnail" style="width:100%" alt="Image">
+        <h4 class="project-title p-2 text-light">Bookshelves - Clapham</h4>
       </div>
     </div>
-  </div><br>
-  <div class="container contact-form">
-            <div class="contact-image">
-                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
-            </div>
-            <form method="post">
-                <h3>Drop Us a Message</h3>
-               <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                        </div>
-                    </div>
-                </div>
-            </form>
-</div><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="images/wimbledon/wimbledon-floor.JPG" class="img-responsive img-thumbnail" style="width:100%" alt="Image">
+        <h4 class="project-title p-2 text-light">Full renovation - Wimbledon</h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/wimbledon/wimbledon-bookshelf.jpg" class="img-responsive img-thumbnail" style="width:100%" alt="Image">
+        <h4 class="project-title p-2 text-light">Full renovation - Clapham</h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/placeholder2.jpg" class="img-responsive img-thumbnail" style="width:100%" alt="Image">
+        <h4 class="project-title p-2 text-light ">Bookshelves - Clapham</h4>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center bg-light m-0" id="contacts">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <h2 class='p-5 pb-2'>Get in touch</h2>
+        <h5>We would love to hear from you so please get in touch with any questions. Please bear in mind that we are a small family operation so responses may not be immediate.We will try to get back to you as quickly as possible.</h5>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+      <div class="col">
 
-  <footer class="container-fluid text-center">
-    <p>MJ&Sons Carpentry</p>
+      </div>
+      <div class="col">
+        <h5>We will always try and answer the phone unless we are busy on a job</h5>
+
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid text-center bg-dark text-light">
+    <p>MJ & Sons Carpentry</p>
+    <p>&#9400; Copyright 2019. All rights reserved. Designed by George Sykes</p>
   </footer>
 
 </body>
